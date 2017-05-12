@@ -4,6 +4,11 @@
 ### Added
 - tag group form
 - Added First time tour.
+- Release date to Story
+
+### Changed
+- the attributes of a release story when creating.
+Add Datepicker Component and Change the view of release stories
 
 ### Changed
 - Story id, location and history input-form-group into a react component 

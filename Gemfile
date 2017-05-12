@@ -29,7 +29,7 @@ gem 'rails-i18n'
 gem 'rack-cors', require: 'rack/cors'
 gem "recaptcha", require: "recaptcha/rails"
 gem 'rgb_utils'
-
+gem 'chronic'
 gem 'central-support', github: 'Codeminer42/cm42-central-support', branch: 'master', require: 'central/support'
 
 gem 'pg'

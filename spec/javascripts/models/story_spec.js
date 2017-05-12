@@ -57,6 +57,11 @@ describe('Story', function() {
         .toEqual([]);
     });
 
+    it('does not have a default release date setted', function() {
+      expect(this.story.get('release_date'))
+        .toBeUndefined()
+    });
+
   });
 
   describe('state transitions', function() {
